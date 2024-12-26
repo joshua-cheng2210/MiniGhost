@@ -1,0 +1,15 @@
+{
+  "name": "minighost",
+  "private": true,
+  "version": "0.0.0",
+  "author": "Joshua Cheng <chen7647@umn.edu, chengjoshua22@gmail.com>",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && javascript-obfuscator ./dist/assets/index.js --output ./dist/assets/index.js --simplify false",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.5"
+  }
+}
