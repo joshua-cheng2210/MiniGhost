@@ -14,6 +14,6 @@ export default defineConfig({
         assetFileNames: 'assets/[name].[ext]' // Set a predictable name for asset files
       }
     },
-    chunkSizeWarningLimit: 1500 // Adjust the chunk size warning limit if needed
+    chunkSizeWarningLimit: 1000 // Adjust the chunk size warning limit if needed
   }
 });

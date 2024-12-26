@@ -1,4 +1,4 @@
-import Phaser from 'phaser';
+// import Phaser from 'phaser';
 
 // Create our only scene called mainScene, in the game.js file
 class mainScene {
