@@ -4,7 +4,7 @@
 ## project demo (in img or vid)
 
 ## Usage and Installation
-'''
+'''bash
 git clone https://github.com/joshua-cheng2210/MiniGhost.git
 cd MiniGhost
 npm install
@@ -20,7 +20,8 @@ npm run dev
 - how framework or module works in javascript
 
 ## Mistakes made that got me debugging 24 hours
-- sometimes the "dist/assets/index.js" is named as something else like "dist/assets-jnbvcfgthyj3y/index.js" with some numbers at the back, then you will have to change the package.json's run build dev command to the respective index-x500 name there too
+- sometimes the "dist/assets/index.js" is named as something else like "dist/assets-jnbvcfgthyj3y/index.js" with some numbers at the back, this is because vite this this for some reason. easy fix is to have a cite.config.js
+- you didn't put "javascript-obfuscator": "^4.0.0" in your dev dependencies. the literal thing that you used to compile and bundle your project
 - well this simple proj isn't too crazy compare to my very first project SnakeGame (https://github.com/joshua-cheng2210/SnakeGame)
 ## how to tweak this projec for your own uses (for collaborative developers)
 - additional features can be added to the game
