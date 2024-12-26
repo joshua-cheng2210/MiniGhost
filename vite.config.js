@@ -9,11 +9,11 @@ export default defineConfig({
         main: './index.html'
       },
       output: {
-        entryFileNames: 'assets/index.js',
-        chunkFileNames: 'assets/[name].js',
-        assetFileNames: 'assets/[name].[ext]'
+        entryFileNames: 'assets/index.js', // Set a predictable name for the entry file
+        chunkFileNames: 'assets/[name].js', // Set a predictable name for chunk files
+        assetFileNames: 'assets/[name].[ext]' // Set a predictable name for asset files
       }
     },
-    chunkSizeWarningLimit: 1000 // Adjust the chunk size warning limit if needed
+    chunkSizeWarningLimit: 1500 // Adjust the chunk size warning limit if needed
   }
 });
