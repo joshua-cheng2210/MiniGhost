@@ -6,10 +6,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && javascript-obfuscator ./dist/assets/index.js --output ./dist/assets/index.js --simplify false",
+    "build": "vite build && javascript-obfuscator ./dist/assets/index-BK5gwumI.js --output ./dist/assets/index-BK5gwumI.js --simplify false",
     "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^6.0.5"
+  },
+  "dependencies": {
+    "javascript-obfuscator": "^4.1.1",
+    "phaser": "^3.55.2"
   }
 }
