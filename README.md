@@ -24,8 +24,8 @@ npm run dev
 - well i take my words back
 - sometimes the "dist/assets/index.js" is named as something else like "dist/assets-jnbvcfgthyj3y/index.js" with some numbers at the back, this is because vite this this for some reason. easy fix is to have a cite.config.js
 - you didn't put "javascript-obfuscator": "^4.0.0" in your dev dependencies. the literal thing that you used to compile and bundle your project
-- i received a bug saying. "(!) Some chunks are larger than 1000 kB after minification.". so instead of importing my phaser in the game.js, my 2 cents told me to import it in the html and it somehow worked
-## how to tweak this projec for your own uses (for collaborative developers)
+- your jekyll .yml that you gotten from git hub uses ruby to run. i didn't have ruby installed and is probably causing the whole problem. just used the .yml from previous project
+## how to tweak this project for your own uses (for collaborative developers)
 - additional features can be added to the game
 
 ## Find a bug?
