@@ -2,7 +2,7 @@
 ## project details and purpose
 - building a simple 2D game with front-end and back-end with HTML, CSS and javascript and trying out new module like "phaser" (but its still vanilla Js)
 ## project demo (in img or vid)
-[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)]([https://youtu.be/VIDEO_ID](https://github.com/joshua-cheng2210/MiniGhost/blob/main/assets/MiniGhost-demo.mp4))
+[![Watch the video](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://github.com/user-attachments/assets/804d39e9-45dc-4c0b-8547-7012ffd84361))
 ## Usage and Installation
 '''bash
 git clone https://github.com/joshua-cheng2210/MiniGhost.git
